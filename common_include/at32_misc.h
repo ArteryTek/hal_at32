@@ -10,3 +10,11 @@
 #if defined(CONFIG_SOC_SERIES_AT32F423)
 #include <at32f423_misc.h>
 #endif
+
+#if defined(CONFIG_SOC_SERIES_AT32F435_437)
+#include <at32f435_437_misc.h>
+#endif
+
+#if defined(CONFIG_SOC_SERIES_AT32F403A_407)
+#include <at32f403A_407_misc.h>
+#endif
